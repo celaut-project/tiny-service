@@ -1,6 +1,6 @@
 {
     "api": [{"port":3030, "protocol":["http","tls"]}],
-    "architecture": "linux/amd64",
+    "architecture": "linux/arm64",
     "entrypoint": "/tiny-service/target/release/tiny-service",
     "envs": []
 }
