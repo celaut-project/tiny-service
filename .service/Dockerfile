@@ -1,5 +1,5 @@
 FROM rust:latest AS builder
-COPY SRC
+COPY src /tiny-service
 RUN cargo build --release
 
 FROM gcr.io/distroless/cc
